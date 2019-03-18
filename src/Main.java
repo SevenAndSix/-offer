@@ -1,13 +1,16 @@
-import offer.Question51_60.Question52;
-import offer.Question51_60.Question53;
-import offer.Question51_60.Question54;
+import com.sun.org.apache.xpath.internal.SourceTree;
+import offer.Question51_60.*;
 import offer.dataStruct.LNode;
 import offer.sortAlgorithm.*;
 import offer.tree.BinaryTree;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -35,26 +38,10 @@ public class Main {
 
 
 
-    public static void main(String[] args) {
-        BinaryTree head=new BinaryTree(5);
-        BinaryTree node1=new BinaryTree(3);
-        BinaryTree node2=new BinaryTree(7);
-        BinaryTree node3=new BinaryTree(2);
-        BinaryTree node4=new BinaryTree(4);
-        BinaryTree node5=new BinaryTree(6);
-        BinaryTree node6=new BinaryTree(8);
-
-        head.setLeftTree(node1);
-        head.setRightTree(node2);
-
-        node1.setLeftTree(node3);
-        node1.setRightTree(node4);
-
-        node2.setLeftTree(node5);
-        node2.setRightTree(node6);
-
-        Question54 question54=new Question54(3);
-        BinaryTree resultNode=question54.findKthNode(head,3);
+    public static void main(String[] args){
+        Question56 question56=new Question56();
+        int[] numbers={2,4,3,6,3,2,5,5};
+        int[] result=question56.appearOneTimeDigits(numbers);
     }
 
 }

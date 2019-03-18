@@ -67,33 +67,3 @@ public class Question53 {
     }
 }
 
-/*
-* 测试函数
-*
-        Question53 question53=new Question53();
-        int[] array={1,2,3,3,3,3,4,5};
-        int first=question53.getFirstK(array,3,0,7);
-        int last=question53.getLastK(array,3,0,7);
-        int sameDigitsCount=question53.sameDigitsCount(array,3);
-* */
-
-//    public BinaryTree kthNodeOffer(BinaryTree curNode,int k){
-//        BinaryTree targetNode=null;
-//
-//        if(curNode.getLeftTree()!=null){
-//            targetNode=kthNodeOffer(curNode.getLeftTree(),k);
-//        }
-//
-//        if(targetNode==null){
-//            if(k==1)
-//                targetNode=curNode;
-//            k--;
-//        }
-//
-//        if(targetNode==null&&curNode.getRightTree()!=null){
-//            targetNode=kthNodeOffer(curNode.getRightTree(),k);
-//        }
-//
-//        return targetNode;
-//    }
-
