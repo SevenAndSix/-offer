@@ -1,5 +1,6 @@
 import com.sun.org.apache.xpath.internal.SourceTree;
 import offer.Question51_60.*;
+import offer.Question61_66.*;
 import offer.dataStruct.LNode;
 import offer.sortAlgorithm.*;
 import offer.tree.BinaryTree;
@@ -39,9 +40,8 @@ public class Main {
 
 
     public static void main(String[] args){
-        Question56 question56=new Question56();
-        int[] numbers={2,4,3,6,3,2,5,5};
-        int[] result=question56.appearOneTimeDigits(numbers);
+        Question65 question65=new Question65();
+        int sum=question65.calculateSum(7,15);
     }
 
 }

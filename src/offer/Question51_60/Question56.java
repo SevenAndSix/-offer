@@ -48,3 +48,10 @@ public class Question56 {
             return false;
     }
 }
+
+/*
+* 测试函数
+*       Question56 question56=new Question56();
+        int[] numbers={2,4,3,6,3,2,5,5};
+        int[] result=question56.appearOneTimeDigits(numbers);
+* */
